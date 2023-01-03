@@ -89,6 +89,23 @@ q{
     align-items: center;
    
 }
+.actionarea{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    align-items: center;
+}
+.actiontext{
+    margin: 0px;
+}
 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.41);
