@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -61,6 +65,9 @@ img {
     border-radius: 20px;
 
 }
+.catpic > img{
+    border: solid blue 2px;
+}
 q{
    font-style: italic;
    min-width: 3px; 
@@ -106,8 +113,18 @@ q{
 .actiontext{
     margin: 0px;
 }
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    font-size: 8pt;
+    margin: 0;
+    
+}
 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.41);
     margin: 10px;
+    
 }
