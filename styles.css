@@ -48,7 +48,8 @@
     display: flex;
     flex-direction: column;
     align-itens: center;
-    justify-content: center;
+    justify-content: start;
+    gap: 4px;
 }
 .catpic > img {
     border-radius: 20px;
