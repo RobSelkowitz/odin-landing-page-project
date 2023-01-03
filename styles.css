@@ -3,6 +3,7 @@
     justify-content: space-around;
     background-color: #1F2937;
     color: white;
+    padding: 6px;
 }
 
 .welcome{
@@ -22,9 +23,15 @@
     justify-content: left;
 }
 .drawing{
-    padding: 40px;
-    width: 300px;
-    flex: 1, 1, auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 6px;
+    
+}
+.drawing > figurecaption{
+    align-self: flex-end;
 }
 .signup{
     background-color: #3882f6;
@@ -47,11 +54,10 @@
     width: 200px;
     display: flex;
     flex-direction: column;
-    align-itens: center;
     justify-content: start;
     gap: 4px;
 }
-.catpic > img {
+img {
     border-radius: 20px;
 
 }
