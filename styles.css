@@ -5,9 +5,55 @@
     color: white;
 }
 
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.leftside{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 0, 0, auto;
+    justify-content: left;
+}
+.drawing{
+    padding: 40px;
+    width: 300px;
+    flex: 1, 1, auto;
+}
+.signup{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
 
+.information{
+    text-align: center;
+}
+.catpictures{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.catpic{
+    width: 200px;
+    flex 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.catpic > img {
+    border-radius: 20px;
 
+}
 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.41);
